@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>Tiger&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Tiger's Blog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Tiger's Blog">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Tiger's Blog">
 <meta name="twitter:description">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Tiger&#39;s Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -33,8 +33,12 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">Tiger&#39;s Blog</a>
       </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">good good study, day day up</a>
+        </h2>
       
     </div>
     <div id="header-inner" class="inner">
@@ -61,6 +65,69 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-20151124测试" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/11/24/20151124测试/" class="article-date">
+  <time datetime="2015-11-24T15:15:08.000Z" itemprop="datePublished">2015-11-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/11/24/20151124测试/">20151124测试</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li>接单列表，根据状态搜索没结果<br>  a. 用动态方法的获取状态，在D层已定义状态的属性，再base里组装成数组，其它类继承可以调用属性</li>
+<li>咨询列表审核不通过，不做处理，还是待审核</li>
+<li>后台头像问题，这个路径是个啥来的</li>
+<li>咨询列表发起的咨询列表图片不显示 <strong><em>已解决</em></strong></li>
+<li>前台编辑pa专业领域，后台无显示  <strong><em>已解决</em></strong></li>
+<li>pa文章列表，标题字段太长问题 </li>
+<li>刚才的cp 为何没有更改 <strong><em>已解决</em></strong><br>  a. 询问是覆盖，输入y,就覆盖了</li>
+</ul>
+<p>php代码:</p>
+<pre><code><span class="class"><span class="keyword">class</span> <span class="title">Blog</span> </span>{
+    <span class="keyword">public</span> Id { <span class="keyword">get</span>; <span class="keyword">set</span>;}
+    <span class="keyword">public</span> subject { <span class="keyword">get</span>;<span class="keyword">set</span>;}
+}
+</code></pre><h3 id="20151125项目测试">20151125项目测试</h3><ul>
+<li>家长头像 <strong><em>ok</em></strong></li>
+<li>pa头像 <strong><em>ok</em></strong></li>
+<li>pa文章图片 <strong><em>ok</em></strong></li>
+<li>文章排序 置顶优先 然后创建时间</li>
+<li>pa详情返回按钮 <strong><em>ok</em></strong></li>
+<li>文章列表，查看详情，点击返回，返回至人员列表PA <strong><em>ok</em></strong></li>
+</ul>
+<h3 id="20151126项目测试">20151126项目测试</h3><ul>
+<li>咨询列表回复咨询内容时没有换行</li>
+<li>想办法将另一个应用跑起来，不能在开发项目中跑，会导致各种问题</li>
+<li>memberactionlist 数据S层D层代码整理到member数据中的S、D层中</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/11/24/20151124测试/" data-id="cihg78m5u000014m5j4jl243o" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-my-new-post" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/11/19/my-new-post/" class="article-date">
@@ -86,11 +153,38 @@
         <h1 id="这里是正文，用markdown写，使用方法参照我原来的博客Introduction_to_markdown">这里是正文，用markdown写，使用方法参照我原来的博客<a href="http://zipperary.com/2013/05/22/introduction-to-markdown/" target="_blank" rel="external">Introduction to markdown</a></h1><h3 id="三级标题">三级标题</h3><ol>
 <li>下面都是列表</li>
 </ol>
+<h1 id="sty">sty</h1><h3 id="list_分页">list 分页</h3><ol>
+<li><h3 id="sql_语句">sql 语句</h3></li>
+<li><h3 id="类型动态读取">类型动态读取</h3></li>
+</ol>
+<h3 id="新支持sql目录">新支持sql目录</h3><ol>
+<li>structure default 有问题</li>
+<li>data.sql 也有问题，应该要加前缀，不是死数据    </li>
+</ol>
+<ul>
+<li><h4 id="人员列表pa_有地区字段">人员列表pa 有地区字段</h4></li>
+<li><h4 id="审核状态的bug已更改">审核状态的bug已更改</h4></li>
+<li><h4 id="新支持设置在服务器空白页面的问题，我的菜单里有，">新支持设置在服务器空白页面的问题，我的菜单里有，</h4><ul>
+<li>cfg.bak 有配置setting项</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="20151124测试">20151124测试</h2><ul>
+<li>接单列表，根据状态搜索没结果<br>  a. 用动态方法的获取状态，在D层已定义状态的属性，再base里组装成数组，其它类继承可以调用属性</li>
+<li>咨询列表审核不通过，不做处理，还是待审核</li>
+<li>后台头像问题，这个路径是个啥来的</li>
+<li>咨询列表发起的咨询列表图片不显示</li>
+<li>前台编辑pa专业领域，后台无显示 已解决</li>
+<li>pa文章列表，标题字段太长问题 </li>
+<li>pa文章中的图片问题</li>
+<li>刚才的cp 为何没有更改</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/11/19/my-new-post/" data-id="cih68echq0001hkm5j24799kn" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/11/19/my-new-post/" data-id="cihg78m6n000114m5siz02a6q" class="article-share-link">Share</a>
       
       
     </footer>
@@ -135,7 +229,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/11/14/hello-world/" data-id="cih68ecgw0000hkm5chhxe94g" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/11/14/hello-world/" data-id="cihg78m6s000214m5llkaavl8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -160,7 +254,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a><span class="archive-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -170,6 +264,10 @@
     <h3 class="widget-title">Recents</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2015/11/24/20151124测试/">20151124测试</a>
+          </li>
         
           <li>
             <a href="/2015/11/19/my-new-post/">my new post</a>
